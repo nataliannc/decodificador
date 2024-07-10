@@ -5,6 +5,8 @@ Desafio de programar um decodificador de texto usando HTML, CSS e JavaScript (n�
 
 A proposta é permitir ao usuário inserir um texto na interface fornecida e visualizar o texto codificado.
 
+https://nataliannc.github.io/decodificador/
+
 ![decodificador](img/projeto-decodificador.png)
 
 # HTML e CSS
