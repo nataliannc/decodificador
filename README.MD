@@ -15,4 +15,6 @@ O processo começa com a criação de uma estrutura HTML que inclui elementos es
 
 Ainda não realizado.
 
+![insígnia](img/insignia.png)
+
 
