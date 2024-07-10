@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #F3F5FC;
+}
+
+.logo h6 {
+    margin: 0px 105px;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    color: #0A3871;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.box-texto {
+    width: 60%;
+    height: 100%;
+    padding-top: 40px;
+}
+
+form {
+    padding-top: 60px;
+    padding-left: 110px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: calc(100% - 148px);
+}
+
+form textarea {
+    width: 100%;
+    height: 470px;
+    border: none;
+    font-family: "Inter";
+    outline: none;
+    color: #0A3871;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    background-color: transparent;
+}
+
+button {
+    width: 328px;
+    height: 67px;
+    background-color: transparent;
+    text-align: center;
+    box-shadow: none;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 19px;
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    gap: 20px;
+}
+
+button.botao-criptografar {
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+button.botao-descriptografar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.alerta {
+    font-family: 'Inter';
+    font-size: 12px;
+    color: #485057;
+    opacity: 0.8;
+    margin: 0 0 16px 8px;
+}
+
+.alerta img {
+    margin-bottom: -4px;
+}
+
+.box-texto-criptografado {
+    width: 40%;
+    height: 680px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 10px 0px 5px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    margin: 40px 40px 40px 100px;
+    padding: 25px;
+}
+
+.no-text img {
+    margin: 150px 32px 0 32px;
+}
+
+.mensagem-texto-inexistente {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #343A40;
+
+    margin: 32px 32px 32px 16px;
+}
+
+.no-text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray-400);
+}
+
+.texto-criptografado p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: left;
+    color: #485057;
+}
+
+footer {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #0A3871;
+    padding: 15px 0;
+    display: block;
+    height: auto;
+}
+
+.copyright {
+    font-family: 'Inter';
+    line-height: 20px;
+    font-size: 10px;
+}
+
+.socialmedia {
+    margin: 15px 5px 15px 5px;
+}
